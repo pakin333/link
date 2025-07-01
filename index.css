@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&family=Charm:wght@400;700&family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap');
+body{
+
+    font-family: "Athiti", sans-serif;
+}
+article{
+
+    min-height: 1000px;
+    background-image: linear-gradient(to bottom, #f0f0f0, #3e93da);
+    font-family: "Athiti", sans-serif;
+    line-height: 1.6;
+    padding-left: 30px;
+}
+nav{
+
+    margin-bottom: -40px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 20px;
+    overflow: hidden;
+    background-color: chocolate;
+
+    display: flex;
+    font-size: x-large;
+    column-gap: 40px;
+}
+
+nav ul li a {
+    font-family: "Athiti", sans-serif;
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover {
+    color: white;
+    font-weight: 500;
+}
+footer{
+
+    background-color: #3e93da;
+    color: white;
+    margin-top: -20px;
+    text-align: center;
+    padding: 10px 0;
+    font-family: "Athiti", sans-serif;
+}
+
+.highlight {
+    text-align: center;
+
+}
+
+.highlight h1 {
+ 
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: dodgerblue;
+}
+
+.highlight p {
+    font-size: 24px;
+    color: #333;
+}
+
+.highlight input{
+
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.codeExam{
+
+    background-color: #88a7e9;
+    margin: 20px 0px;
+    width: 90%;
+    padding-left: 20px;
+}
+pre{
+    padding: 0px 20px;
+    background-color: white;
+    overflow-x: auto;
+    border-left:6px solid green ;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border: 2px solid #272424;
+}
+thead{
+    background-color: #272424;
+    color: white;
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.note{
+
+    background-color: yellow;
+    padding: 20px;
+    margin: 10px 0;
+}
+td a{
+    color: black;
+}
