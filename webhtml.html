@@ -19,11 +19,36 @@
     </nav>
 
     <article>
-        <div class="highlight">
+        <div id="menu" class="highlight">
             <h1>HTML Introduction</h1>
             <p>HTML is the standard markup language for creating Web pages.</p>
         </div>
-        <h2>What is HTML?</h2>
+                    <div class="menu" >
+                <ul>
+                    <li>
+                        <a href="#m1">What is HTML?</a>
+                    </li>
+                    <li>
+                        <a href="#m2">A Simple HTML Document</a>
+                    </li>
+                    <li>
+                        <a href="#m3">Example Explained</a>
+                    </li>
+                    <li>
+                        <a href="#m4">What is an HTML Element?</a>
+                    </li>
+                    <li>
+                        <a href="#m5">Web Browsers</a>
+                    </li>
+                    <li>
+                        <a href="#m6">HTML Page Structure</a>
+                    </li>
+                    <li>
+                        <a href="#m7">HTML History</a>                       
+                    </li>
+                </ul>
+            </div>
+        <h2 id = "m1">What is HTML?</h2>
         <ul>
             <li>HTML stands for Hyper Text Markup Language</li>
             <li>HTML describes the structure of Web pages using markup</li>
@@ -32,7 +57,7 @@
             <li>HTML tags label pieces of content such as "heading", "paragraph", "table", etc.</li>
             <li>Browsers do not display the HTML tags, but use them to render the content of the page</li>
         </ul>
-        <h2>A Simple HTML Document</h2>
+        <h2 id = "m2">A Simple HTML Document</h2>
         <div class="codeExam">
             <h3>Example</h3>
 
@@ -56,7 +81,7 @@
                 onclick="document.location='https://www.w3schools.com/html/tryit.asp?filename=tryhtml_intro'">
 
         </div>
-        <h2>Example Explained</h2>
+        <h2 id = "m3">Example Explained</h2>
         <ul>
 
             <li>The &lt;html&gt; element is the root element of an HTML page</li>
@@ -67,7 +92,10 @@
             <li>The &lt;h1&gt; element defines a top-level heading</li>
             <li>The &lt;p&gt; element defines a paragraph</li>
         </ul>
-        <h2>
+        <h1>
+            <a href="#menu">Up</a>
+        </h1>
+        <h2 id = "m4">
             What is an HTML Element?
         </h2>
         <p>
@@ -107,19 +135,19 @@
             elements. Empty elements do not have an end tag!
         </div>
 
-        <h2>Web Browsers</h2>
+        <h2 id="m5">Web Browsers</h2>
         <p>The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display them
             correctly.
         </p>
         <p>A browser does not display the HTML tags, but uses them to determine how to display the document:</p>
         <img src="https://www.w3schools.com/html/img_chrome.png" alt="">
-        <h2>HTML Page Structure</h2>
+        <h2 ID="m6">HTML Page Structure</h2>
         <p>Below is a visualization of an HTML page structure:</p>
         <img src="C:\Users\344_03\Downloads\Screenshot 2025-07-01 160710.png" alt="">
 
         <div class="note"><b>Note:</b> The content inside the &lt;body&gt; section will be displayed in a browser. The content
             inside the &lt;title&gt; element will be shown in the browser's title bar or in the page's tab.</div>
-            <h2>HTML History</h2>
+            <h2 id = "m7">HTML History</h2>
             <p>Since the early days of the World Wide Web, there have been many versions of HTML:</p>
         <table>
             <thead>

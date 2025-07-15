@@ -113,14 +113,10 @@ td a{
     color: black;
 }
 
-.menu a {
-    text-decoration: none;
-    color: black;
-    font-weight: 800;
-}
+hr{
+    border: 2px dashed ;
 
-.menu a:hover {
-    color: dodgerblue;
-    transition: 0.3s;
+    margin: 20px 0;
+    width: 95%;
 }
 
